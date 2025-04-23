@@ -1,0 +1,29 @@
+{
+  "name": "mern-task-manager",
+  "version": "1.0.0",
+  "description": "Full-stack Kanban-style task manager built with the MERN stack (MongoDB, Express, React, Node.js). Features drag-and-drop task boards, user authentication, and real-time task updates.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehdiBoustani/mern-task-manager.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehdiBoustani/mern-task-manager/issues"
+  },
+  "homepage": "https://github.com/MehdiBoustani/mern-task-manager#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
